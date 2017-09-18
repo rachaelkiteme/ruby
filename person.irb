@@ -1,0 +1,11 @@
+class Person
+attr_accessor :name, :age, :gender
+end
+person_instance = Person.new
+person_instance.name = "Rachael"
+person_instance.age = 50
+person_instance.gender = "Female"
+puts person_instance.name
+puts person_instance.age
+puts person_instance.gender
+
