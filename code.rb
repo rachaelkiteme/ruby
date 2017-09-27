@@ -7,8 +7,10 @@ last_name.capitalize!
 print "Enter your city:"
 city = gets.chomp
 city.reverse!
-if first_name.include? "rachael"
-first_name.gsub!(/rachael/, "Grace")
+puts "Your name is #{first_name} #{last_name} from #{city}"
+
+if first_name.include? "Rachael"
+first_name.gsub!(/Rachael/, "Grace")
 else
 puts "Your name has no rachael"
 end
